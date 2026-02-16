@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Scan Files in a Folder
-      uses: alexavil/folder-scanner@aa1a2ae30ac4afd01aa045b53bf3afab95aa53c4
+      uses: alexavil/folder-scanner@996d38a0d06db3e61f44fe68618e2098910d7a69
       with:
           folder: .
           commit_message: Compile asset file list
